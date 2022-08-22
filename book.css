@@ -72,14 +72,14 @@ body{
         top: 20px;
     }
     .appointment{
-        margin-left: -2rem;
-        width: 186px;
+        
+        width: 240px;
     }
     .input_field{
-        width: 192px;
+        width: 240px;
     }
     .book_app{
-        font-size: 1.3rem;
-        margin-left: -2rem;
+        font-size: 30px;
+        
     }
 }
