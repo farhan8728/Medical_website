@@ -30,6 +30,9 @@ body{
 .card-text{
     color: var(--deep-header-font-color);
 }
+.emergency{
+    
+}
 @media screen and (max-width:767px){
     .card{
         /* width:21rem; */
