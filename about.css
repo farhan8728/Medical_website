@@ -1,0 +1,54 @@
+body{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+:root{
+    --white-color:#fff;
+    --background-color:#e6e6f8;
+    --active-link-color:#F27733;
+    --telephone-fill-color:#555ACF;
+    --deep-header-font-color:#20217c;
+    --size-rem:16px;
+}
+
+.image img{
+    margin-top: 6.25rem;
+}
+.about_h2{
+    margin-top: 6.25rem;
+    color: var(--deep-header-font-color);
+    font-size: 2.5rem;
+}
+.we_provide{
+    font-size: 1rem;
+}
+.card{
+    background: rgba(85, 89, 206, 0.1);
+    border: 2px solid #F27733;
+    border-radius: 1.25rem;
+}
+.card-text{
+    color: var(--deep-header-font-color);
+}
+@media screen and (max-width:767px){
+    .card{
+        /* width:21rem; */
+        width: 91vw;
+    }
+    .card_img{
+        margin-left:7.35rem;
+        padding-top: 0.625rem;
+    }
+    .card-text{
+        text-align: center;
+    }
+    .about_h2{
+        font-size: 1.7rem;
+        margin-top: 1.6rem;
+    }
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    .card{
+        margin-left: 0 !important;
+    }
+}
