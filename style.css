@@ -26,7 +26,12 @@ body{
 .nav-link:hover{
     color: var(--active-link-color) !important;
 }
-
+.dropdown-item:hover{
+    color: var(--active-link-color) !important;
+}
+.nav-item:hover .dropdown-menu{
+    display: block;
+}
 .bi-telephone-fill{
     color: var(--telephone-fill-color);
     font-size: var(--size-rem) !important;
