@@ -240,6 +240,7 @@ body{
     border-top-left-radius: 40px;
     border-bottom-right-radius: 40px;
     background-color: var(--active-link-color);
+    position: relative;
 }
 .fourth_lorem{
     font-size: 20px;
@@ -248,6 +249,20 @@ body{
     color: #FFFFFF;
     
     
+}
+.quote_img{
+    width: 50px;
+    position: absolute;
+    top: -25px;
+    left: 30px;
+    
+}
+.quote_footer_img {
+    width: 50px;
+    position: absolute;
+    top: 460px;
+    left: 350px;
+    transform: rotate(180deg);
 }
 .fourth_header{
     padding-top: 80px;
@@ -268,6 +283,12 @@ body{
 .it{
     color: var(--active-link-color);
 }
+.footer_img{
+    width: 50px;
+    
+}
+
+
 @media screen and (max-width:767px){
     
     .contact_us{
