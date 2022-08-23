@@ -79,7 +79,7 @@ a{
 .register_btn:hover{
     background-color: #5559CE;
     color: #fff;
-    transition: .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 @media screen and (max-width:767px){
