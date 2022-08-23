@@ -183,15 +183,16 @@ body{
 }
 .third_second_section{
     background-color: var(--telephone-fill-color);
-    border-radius: 20px;
-    width: 33.5rem;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    height: 450px;
     margin-left: 106px;
     position: relative;
-    height: 445px;
+    
 }
 .third_second_first_part{
     
-    width: 260px;
+    width: 240px;
     background-color: var(--background-color);
     position: absolute;
     top:50px;
@@ -215,18 +216,57 @@ body{
 .third_second__part{
 
     background-color:var(--background-color);
-    width: 260px;
+    width: 240px;
     position: absolute;
     top:50px;
     border-radius: 30px;
-    left:170px;
+    left:150px;
     height: 349px;
 
 }
 .fourth_part{
-    background-color: red;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(230,230,248,1) 0%, rgba(255,255,255,1) 0%, rgba(230,230,248,1) 100%);
     width: 100%;
-    height: 50vh;
+    
+}
+#testimonial{
+    margin: 0 auto;
+}
+.see_what{
+    color: var(--deep-header-font-color);
+}
+.fourt_second_part{
+    width: 100%;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: var(--active-link-color);
+}
+.fourth_lorem{
+    font-size: 20px;
+    line-height: 23px;
+    padding: 50px 50px;
+    color: #FFFFFF;
+    
+    
+}
+.fourth_header{
+    padding-top: 80px;
+}
+
+.footer{
+    width: 100%;
+    background: var(--background-color);
+    
+    
+}
+.font_size{
+    font-size: 36px;
+}
+.icon{
+    padding-left: 4rem;
+}
+.it{
+    color: var(--active-link-color);
 }
 @media screen and (max-width:767px){
     
